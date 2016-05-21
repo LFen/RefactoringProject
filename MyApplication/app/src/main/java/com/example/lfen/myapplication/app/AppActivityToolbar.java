@@ -11,7 +11,7 @@ import com.example.lfen.myapplication.R;
 /**
  * Created by LFen on 16/5/21.
  */
-public abstract class AppActivity extends BaseActivity {
+public abstract class AppActivityToolbar extends AppBaseActivity {
 
     //获取第一个fragment
     protected abstract BaseFragment getFirstFragment();

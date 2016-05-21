@@ -9,7 +9,7 @@ import com.example.lfen.myapplication.R;
 /**
  * Created by LFen on 16/5/22.
  */
-public abstract class AppActivityNoToolbar extends BaseActivity{
+public abstract class AppActivityNoToolbar extends AppBaseActivity{
 
     //获取第一个fragment
     protected abstract BaseFragment getFirstFragment();

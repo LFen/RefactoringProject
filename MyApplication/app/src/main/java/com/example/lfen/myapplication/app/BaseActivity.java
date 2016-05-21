@@ -124,11 +124,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         fragment.startActivityForResult(intent, requestCode);
     }
 
-    // 获取布局文件ID
-    protected abstract int getContentViewId();
-
-    // 布局中fragment的id
-    protected abstract int getFragmentContentId();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -137,38 +132,9 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onPostResume() {
-        super.onPostResume();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-    }
-
-    @Override
     protected void onDestroy() {
         super.onDestroy();
         ActivityStackManager.getInstance().removeActivity(this);
-    }
-
-    // 添加fragment
-    protected void addFragment(BaseFragment fragment) {
-        if (fragment != null) {
-            getSupportFragmentManager().beginTransaction()
-                    .replace(getFragmentContentId(), fragment, fragment.getClass().getSimpleName())
-                    .addToBackStack(fragment.getClass().getSimpleName())
-                    .commitAllowingStateLoss();
-        }
-    }
-
-    // 移除fragment
-    protected void removeFragment() {
-        if (getSupportFragmentManager().getBackStackEntryCount() > 1) {
-            getSupportFragmentManager().popBackStack();
-        } else {
-            finish();
-        }
     }
 
     public void showWaiting(@StringRes int msgResId) {
@@ -243,17 +209,5 @@ public abstract class BaseActivity extends AppCompatActivity {
             im.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
         }
-    }
-
-    // 返回键事件
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (KeyEvent.KEYCODE_BACK == keyCode) {
-            if (getSupportFragmentManager().getBackStackEntryCount() == 1) {
-                finish();
-                return true;
-            }
-        }
-        return super.onKeyDown(keyCode, event);
     }
 }
