@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:enterFadeDuration="@android:integer/config_shortAnimTime"
+          android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+    <item android:drawable="@drawable/shape_round_rect_trans_bg_4dffffff_border" android:state_enabled="false"/>
+    <item android:drawable="@drawable/shape_round_rect_ffffff_bg" android:state_pressed="true"/>
+    <item android:drawable="@drawable/shape_round_rect_trans_bg_ffffff_border"/>
+
+</selector>

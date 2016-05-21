@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PagerIndicator">
+        <attr name="normalIndicator" format="reference" />
+        <attr name="highlightIndicator" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="BannerPager">
+        <attr name="bannerNormalIndicator" format="reference" />
+        <attr name="bannerHighlightIndicator" format="reference"/>
+        <attr name="loop" format="boolean"/>
+        <attr name="displayRatio" format="float"/>
+        <attr name="backgroundRes" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScoreBarView">
+        <attr name="barHeight" format="dimension" />
+        <attr name="barTextSize" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="PopularityBar">
+        <attr name="bottomBarHeight" format="dimension" />
+        <attr name="topBarHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+       android:insetLeft="88dp"
+       android:insetRight="@dimen/normal_margin"
+       android:drawable="@color/common_divider_line_bg"
+    />

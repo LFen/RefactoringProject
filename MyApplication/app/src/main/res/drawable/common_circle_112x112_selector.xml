@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:enterFadeDuration="@android:integer/config_shortAnimTime"
+          android:exitFadeDuration="@android:integer/config_shortAnimTime"
+    >
+
+    <item android:drawable="@drawable/shape_circle_f5f5f5_stroke_ddd_bg_112x112" android:state_pressed="true"/>
+    <item android:drawable="@drawable/shape_circle_ffffff_stroke_ddd_bg_112x112"/>
+
+
+</selector>

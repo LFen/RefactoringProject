@@ -1,5 +1,85 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- ToolBar 高度 -->
+    <dimen name="toolbar_size">56dp</dimen>
+
+    <!-- 通用正常margin -->
+    <dimen name="normal_margin">16dp</dimen>
+    <!-- 通用正常padding -->
+    <dimen name="normal_padding">16dp</dimen>
+
+    <!-- 通用正常分隔线高度 -->
+    <dimen name="normal_divider_line_height">0.5dp</dimen>
+    <!-- 通用正常分隔块高度 -->
+    <dimen name="normal_divider_block_height">16dp</dimen>
+
+    <!-- 通用正常圆角radius -->
+    <dimen name="normal_radius">4dp</dimen>
+    <!-- 蓝牙常开提醒按钮圆角radius -->
+    <dimen name="open_bt_radius">5dp</dimen>
+
+    <!-- 最大号字体 -->
+    <dimen name="font_large">32sp</dimen>
+    <!-- 最大号字体行距 -->
+    <dimen name="font_large_line_spacing">0sp</dimen>
+    <!-- 次大号字体 -->
+    <dimen name="font_big">20sp</dimen>
+    <!-- 次大号字体行距 -->
+    <dimen name="font_big_line_spacing">26sp</dimen>
+    <!-- 正常号字体 -->
+    <dimen name="font_normal">16sp</dimen>
+    <!-- 正常号字体行距 -->
+    <dimen name="font_normal_line_spacing">22sp</dimen>
+    <!-- 小号字体 -->
+    <dimen name="font_small">14sp</dimen>
+    <!-- 小号字体行距 -->
+    <dimen name="font_small_line_spacing">18sp</dimen>
+    <!-- 超小号字体 -->
+    <dimen name="font_tiny">12sp</dimen>
+    <!-- 超小号字体行距 -->
+    <dimen name="font_tiny_line_spacing">16sp</dimen>
+    <!-- 蓝牙常开提醒字体 -->
+    <dimen name="font_open_bt_text_size">18sp</dimen>
+
+    <!-- 通用描边宽度 -->
+    <dimen name="border_width">1dp</dimen>
+
+    <!-- 重要按钮高度 -->
+    <dimen name="primary_button_height">48dp</dimen>
+
+    <!-- 一般按钮高度 -->
+    <dimen name="normal_button_height">40dp</dimen>
+
+    <!-- small按钮高度 -->
+    <dimen name="small_button_height">32dp</dimen>
+
+    <!-- 环信相关 -->
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+    <!-- 商户优惠信息item高度 -->
+    <dimen name="advert_item_height">112dp</dimen>
+
+    <!-- 设置页item高度 -->
+    <dimen name="setting_item_height">64dp</dimen>
+
+    <!-- 最近消息列表item高度 -->
+    <dimen name="recent_chat_list_item_height">80dp</dimen>
+
+    <!-- 摇一摇页面的各种距离 -->
+    <dimen name="margin_top_in_beacon_shake">80dp</dimen>
+    <dimen name="margin_top_shake_msg">20dp</dimen>
+
+    <!-- 摇一摇页面字体尺寸 -->
+    <dimen name="shake_msg_text_size">17sp</dimen>
+    <dimen name="detail_text_size">15sp</dimen>
+
+
+    <!-- 友盟反馈 -->
+    <dimen name="umeng_fb_item_height">48dp</dimen>
+    <dimen name="umeng_fb_item_content_size">14sp</dimen>
+    <dimen name="umeng_fb_item_time_size">12sp</dimen>
+    <dimen name="umeng_fb_item_line_height">0.8dp</dimen>
+    <dimen name="umeng_fb_spinner_padding_left">12dp</dimen>
 </resources>

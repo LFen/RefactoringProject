@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextLarge">
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="TextBig">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="TextNormal">
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="TextSmall">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="TextTiny">
+        <item name="android:textSize">@dimen/font_tiny</item>
+    </style>
+
+
+    <!-- App中使用到的字体样式 -->
+    <!-- 字号: 34sp 字色: #000000(black) 90% -->
+    <style name="TextLarge.BlackImportant">
+        <item name="android:textColor">@color/black_important</item>
+    </style>
+
+    <!-- 字号: 34sp 字色: #ffffff(white), 100% -->
+    <style name="TextLarge.WhitePrimary">
+        <item name="android:textColor">@color/white_primary</item>
+    </style>
+
+    <!-- 字号: 20sp 字色: #000000(black), 90% -->
+    <style name="TextBig.BlackImportant">
+        <item name="android:textColor">@color/black_important</item>
+    </style>
+
+    <!-- 字号: 20sp 字色: #ffffff(white), 100% -->
+    <style name="TextBig.WhitePrimary">
+        <item name="android:textColor">@color/white_primary</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #000000(black), 90% -->
+    <style name="TextNormal.BlackImportant">
+        <item name="android:textColor">@color/black_important</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #000000(black), 70% -->
+    <style name="TextNormal.BlackPrimary">
+        <item name="android:textColor">@color/black_primary</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #000000(black), 50% -->
+    <style name="TextNormal.BlackSecondary">
+        <item name="android:textColor">@color/black_secondary</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #ffffff(white), 100% -->
+    <style name="TextNormal.WhitePrimary">
+        <item name="android:textColor">@color/white_primary</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #ffffff(white), 50% -->
+    <style name="TextNormal.WhiteSecondary">
+        <item name="android:textColor">@color/white_secondary</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #ffffff(white), 100% -->
+    <style name="TextSmall.WhitePrimary">
+        <item name="android:textColor">@color/white_primary</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #000000(black), 90% -->
+    <style name="TextSmall.BlackImportant">
+        <item name="android:textColor">@color/black_important</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #000000(black), 70% -->
+    <style name="TextSmall.BlackPrimary">
+        <item name="android:textColor">@color/black_primary</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #000000(black), 50% -->
+    <style name="TextSmall.BlackSecondary">
+        <item name="android:textColor">@color/black_secondary</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #ffffff(white), 50% -->
+    <style name="TextSmall.WhiteSecondary">
+        <item name="android:textColor">@color/white_secondary</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #ffffff(white), 50% -->
+    <style name="TextTiny.WhiteSecondary">
+        <item name="android:textColor">@color/white_secondary</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #ffffff(white), 100% -->
+    <style name="TextTiny.WhitePrimary">
+        <item name="android:textColor">@color/white_primary</item>
+    </style>
+
+    <!-- 字号：12sp 字色： #000000(black), 90%-->
+    <style name="TextTiny.BlackImportant">
+        <item name="android:textColor">@color/black_important</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #000000(black), 50% -->
+    <style name="TextTiny.BlackSecondary">
+        <item name="android:textColor">@color/black_secondary</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #000000(black), 70% -->
+    <style name="TextTiny.BlackPrimary">
+        <item name="android:textColor">@color/black_primary</item>
+    </style>
+
+    <!-- 各种字体类型的Disable样式 -->
+
+    <!-- 字号: 34sp 字色: #000000(black), 30% -->
+    <style name="TextLarge.BlackDisable">
+        <item name="android:textColor">@color/black_disable</item>
+    </style>
+    <!-- 字号: 20sp 字色: #000000(black), 30% -->
+    <style name="TextBig.BlackDisable">
+        <item name="android:textColor">@color/black_disable</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #000000(black), 30% -->
+    <style name="TextNormal.BlackDisable">
+        <item name="android:textColor">@color/black_disable</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #000000(black), 30% -->
+    <style name="TextSmall.BlackDisable">
+        <item name="android:textColor">@color/black_disable</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #000000(black), 30% -->
+    <style name="TextTiny.BlackDisable">
+        <item name="android:textColor">@color/black_disable</item>
+    </style>
+
+
+    <!-- 字号: 34sp 字色: #ffffff(white), 30% -->
+    <style name="TextLarge.WhiteDisable">
+        <item name="android:textColor">@color/white_disable</item>
+    </style>
+
+    <!-- 字号: 20sp 字色: #ffffff(white), 30% -->
+    <style name="TextBig.WhiteDisable">
+        <item name="android:textColor">@color/white_disable</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #ffffff(white), 30% -->
+    <style name="TextNormal.WhiteDisable">
+        <item name="android:textColor">@color/white_disable</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #ffffff(white), 30% -->
+    <style name="TextSmall.WhiteDisable">
+        <item name="android:textColor">@color/white_disable</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #ffffff(white), 30% -->
+    <style name="TextTiny.WhiteDisable">
+        <item name="android:textColor">@color/white_disable</item>
+    </style>
+
+
+    <!-- 生活页&商家页 价钱相关样式 -->
+    <!-- 字号: 32sp 字色: #f55e1e(orange) -->
+    <style name="TextLarge.Price">
+        <item name="android:textColor">@color/price_available</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #f55e1e(orange) -->
+    <style name="TextNormal.Price">
+        <item name="android:textColor">@color/price_available</item>
+    </style>
+
+    <!-- 字号: 14sp 字色: #f55e1e(orange) -->
+    <style name="TextSmall.Price">
+        <item name="android:textColor">@color/price_available</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #f55e1e(orange) -->
+    <style name="TextTiny.Price">
+        <item name="android:textColor">@color/price_available</item>
+    </style>
+
+    <!-- 字号: 12sp 字色: #ff5252(red) -->
+    <style name="TextTiny.Fee">
+        <item name="android:textColor">@color/red_secondary</item>
+    </style>
+
+    <!-- 字号: 16sp 字色: #ff5252(red) -->
+    <style name="TextNormal.Fee">
+        <item name="android:textColor">@color/red_secondary</item>
+    </style>
+
+    <!-- 考勤记录 -->
+    <!-- 字号: 16sp 字色: #802893ff(blue), 20% -->
+    <style name="TextNormal.AttendanceRecord">
+        <item name="android:textColor">@color/blue_200</item>
+    </style>
+
+</resources>

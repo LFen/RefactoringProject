@@ -12,7 +12,7 @@ import android.view.ViewGroup;
  */
 public abstract class AppFragment extends BaseFragment {
 
-    protected BaseActivity mActivity;
+    protected AppBaseActivity mActivity;
 
     protected abstract void initView(View view, Bundle savedInstanceState);
 
@@ -20,18 +20,18 @@ public abstract class AppFragment extends BaseFragment {
     protected abstract int getLayoutId();
 
     //获取宿主activity
-    protected BaseActivity getHoldingActivity() {
+    protected AppBaseActivity getHoldingActivity() {
         return mActivity;
     }
 
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        this.mActivity = (BaseActivity) activity;
+        this.mActivity = (AppBaseActivity) activity;
     }
 
     //添加fragment
-    protected void addFragment(BaseFragment fragment) {
+    protected void addFragment(AppFragment fragment) {
         if (null != fragment) {
             getHoldingActivity().addFragment(fragment);
         }

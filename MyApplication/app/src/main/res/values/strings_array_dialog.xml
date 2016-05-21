@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="login_array">
+
+        <item>微信</item>
+        <item>微博</item>
+        <item>QQ</item>
+
+    </string-array>
+</resources>

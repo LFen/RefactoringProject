@@ -1,3 +1,277 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">盖得排行</string>
+
+    <!-- tabs -->
+    <string name="selection">精选</string>
+    <string name="news">资讯</string>
+    <string name="group_test">众测</string>
+    <string name="bizranking">商评榜</string>
+    <string name="discovery">发现</string>
+    <string name="focus">关注</string>
+    <string name="latest">最新</string>
+    <string name="publish">发布</string>
+
+    <!-- bottom bar -->
+    <string name="front_page">首页</string>
+    <string name="ranking_page">榜单</string>
+    <string name="social_page">社区</string>
+
+    <!-- 通用 -->
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="re_send">重新发送</string>
+    <string name="press_again_to_exit_app">再按一次退出</string>
+    <string name="loading">正在加载</string>
+    <string name="please_waiting">请稍候</string>
+    <string name="dot">\u0020·\u0020</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_error">分享失败</string>
+    <string name="share_cancelled">取消分享</string>
+    <string name="handling_data">正在处理数据</string>
+    <string name="client_not_installed">你还没有安装该客户端</string>
+    <string name="pic">图片</string>
+    <string name="login_first">请先登录</string>
+    <string name="not_login">未登录</string>
+    <string name="finish">完成</string>
+    <string name="liking">正在点赞&#8230;</string>
+    <string name="cancel_liking">正在取消点赞&#8230;</string>
+    <string name="like_success">点赞成功</string>
+    <string name="cancel_like_success">取消点赞成功</string>
+    <string name="has_liked">已点赞</string>
+
+    <!-- 相册 -->
+    <string name="all_pictures">所有照片</string>
+    <string name="max_upload_tips">最多只能选择%1$d张图片</string>
+
+    <!-- 闪屏页 -->
+    <string name="init_data">正在初始化数据</string>
+
+    <!-- 首页 -->
+    <string name="more_articles">更多相关内容</string>
+    <string name="comments">评论</string>
+    <string name="myself">自己</string>
+    <string name="comment_hint">说点什么吧！</string>
+    <string name="comment_reply_hint">回复：%s</string>
+    <string name="send_comment">发送</string>
+    <string name="reply">回复@%s：</string>
+    <string name="exceed_max_character_count">最多可输入140个字</string>
+    <string name="report_reason">举报原因</string>
+    <string-array name="report_reason_array">
+        <item>垃圾营销</item>
+        <item>血腥暴力</item>
+        <item>抄袭内容</item>
+        <item>淫秽色情</item>
+        <item>政治敏感</item>
+        <item>其他</item>
+    </string-array>
+    <string name="report_success">举报成功</string>
+    <string name="login_before_report">请先登录再举报</string>
+    <string name="author_nickname">%s&#183;</string>
+    <string name="comment_published">评论已发布</string>
+    <string name="comment_deleted">评论已删除</string>
+    <string name="login_success">登录成功</string>
+    <string name="logout_success">退出成功</string>
+    <string name="logout_failed">退出失败</string>
+    <string name="copyright">\u00A9版权声明，文章版权归XXX所有\n如希望转载，请事先联系：bd@icloudoor.com</string>
+    <string name="vote_name">%s人气榜投票</string>
+    <string name="confirm_to_delete_the_comment">确定删除该评论？</string>
+
+    <!-- 商评榜 -->
+    <string name="ranking">排行榜</string>
+    <string name="comprehensive_list">综合榜</string>
+    <string name="special_list">特色榜</string>
+    <string name="popular_list">人气榜</string>
+    <string name="wiki">知识百科</string>
+    <string name="comprehensive_point">综合评分</string>
+    <string name="cost_performance_list">性价比榜</string>
+    <string name="high_end_list">高端榜</string>
+    <string name="u_interested_article">你可能感兴趣的文章</string>
+    <string name="directory">目录</string>
+    <string name="popularity_ranking_description">品牌热度排名是根据用户投票计算得出，代表该品牌在用户中的人气高低。人气榜仅供用户参考，不代表盖得排行的意见。</string>
+    <string name="voting_total_count">当前总投票数为：%d</string>
+    <string name="to_vote">投票</string>
+    <string name="up_to_max_voting_count">最多可选择三个品牌</string>
+    <string name="search_tips">搜索你感兴趣的商品排行榜及文章</string>
+    <string name="search_history">搜索历史</string>
+    <string name="clear_history">清除历史</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="related_ranking">相关榜单</string>
+    <string name="related_article">相关文章</string>
+    <string name="all_category">全部分类</string>
+    <string name="search">搜索</string>
+    <string name="show_more_result">查看更多相关排行榜</string>
+    <string name="level_app">A++ 极好</string>
+    <string name="level_ap">A+ 非常好</string>
+    <string name="level_a">A 好</string>
+    <string name="level_b">B 一般</string>
+    <string name="level_c">C 差</string>
+    <string name="share">分享</string>
+    <string name="collection">收藏</string>
+    <string name="feedback">反馈</string>
+    <string name="click_to_add_wx_group">点此加入%s微信群</string>
+    <string name="score_point">分</string>
+    <string name="hot_ranking">精选榜单</string>
+    <string name="hot_category">热门分类</string>
+    <string name="hot_topic">热门主题</string>
+    <string name="hot_brand">热门品牌</string>
+    <string name="percent">%</string>
+    <string name="no_match_record">找不到相关结果</string>
+    <string name="no_search_record">还没有搜索记录</string>
+    <string name="staring">正在收藏&#8230;</string>
+    <string name="cancel_staring">正在取消收藏&#8230;</string>
+    <string name="star_success">收藏成功</string>
+    <string name="cancel_star_success">取消收藏成功</string>
+    <string name="feedback_reason">理由</string>
+    <string name="feedback_reason_hint">请输入您的理由，不少于30字</string>
+    <string name="related_info_link">请输入相关资料链接，没有可不填</string>
+    <string name="save_qr_success">保存成功</string>
+    <string name="save_qr_fail">图片还没下载成功</string>
+    <string name="wechat_group_name">%s微信群</string>
+    <string name="not_choose_brands_yet">至少选择一个品牌进行投票</string>
+    <string name="feedback_success_msg">反馈成功，感谢您的反馈</string>
+
+    <!-- 社区 -->
+    <string name="follow">关注</string>
+    <string name="followed">已关注</string>
+    <string name="dynamic_detail">动态详情</string>
+    <string name="like_count">%1s人赞了此动态</string>
+    <string name="recommended_fellows">推荐你关注这些人</string>
+    <string name="confirm_to_follow">确定关注</string>
+    <string name="expand_text">展开全文</string>
+    <string name="collapse">收起</string>
+    <string name="rank">榜单</string>
+    <string name="article">文章</string>
+    <string name="publish_dynamic">发动态</string>
+    <string name="publishing_dynamic">正在发布动态&#8230;</string>
+    <string name="dynamic_content_hint">动态内容(1~500个字)</string>
+    <string name="image_path_tag">图片路径tag</string>
+    <string name="image_view_tag">视图tag</string>
+    <string name="image_view_index_tag">图片索引tag</string>
+    <string name="uploading_image">正在上传图片: %s</string>\
+    <string name="uploading_one_image">正在上传图片&#8230;</string>
+    <string name="upload_image_waiting">正在上传第%d张图片&#8230;</string>
+    <string name="participate_topic">#参与话题#</string>
+    <string name="publish_dynamic_content_toast">内容需要1~500个字</string>
+    <string name="publish_dynamic_success">发布动态成功</string>
+    <string name="create">创建</string>
+    <string name="create_dialog">创建问答</string>
+    <string name="creating_dialog">正在创建问答</string>
+    <string name="commit">提交</string>
+    <string name="create_dialog_title_desc">*格式：我是商品榜编辑，关于商品榜内容编辑方式，问我吧！</string>
+    <string name="create_dialog_add_photo">+&#160;&#160;&#160;&#160;添加封面图片</string>
+    <string name="dialog_title_toast">问答标题字数在(1~50)之间</string>
+    <string name="dialog_photo_toast">问答必须添加封面图片</string>
+    <string name="create_dialog_success">创建问答成功</string>
+    <string name="author">作者</string>
+    <string name="question_input_hint">向作者提一个问题</string>
+    <string name="add_question_success">提问成功</string>
+    <string name="adding_question">正在提问&#8230;</string>
+    <string name="question_min_length_toast">提问最少10个字</string>
+    <string name="question_max_length_toast">提问最多不超过300个字</string>
+
+    <!-- 我的 -->
+    <string name="fans">粉丝%d</string>
+    <string name="concern">关注%d</string>
+    <string name="tags">标签%d</string>
+    <string name="fansItem">粉丝</string>
+    <string name="concernItem">关注</string>
+    <string name="tagsItem">标签</string>
+    <string name="add_to_concern">+关注</string>
+    <string name="already_concerned">已关注</string>
+    <string name="personal_center">个人中心</string>
+    <string name="edit_profile">编辑资料</string>
+    <string name="my_message">我的消息</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="my_secretary">小秘书</string>
+    <string name="setting">设置</string>
+    <string name="favor">点赞</string>
+    <string name="q_and_a">问答</string>
+    <string name="secretary_welcome_text">Hi，我是盖得排行小秘书。\n 如果你在使用盖得排行遇到任何问题都可以联系我。或者你对我们软件有任何意见或不满，也欢迎向我反馈。您的每一条留言我都会认真看。</string>
+    <string name="bind_account">账号绑定</string>
+    <string name="about_us">关于盖得排行</string>
+    <string name="to_commend">云好评</string>
+    <string name="recommend_to_others">推荐给朋友</string>
+    <string name="terms_of_usage">使用协议</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="current_version">当前版本</string>
+    <string name="version_number">v%s</string>
+    <string name="log_out">退出登录</string>
+    <string name="like">%s 赞了你的动态</string>
+    <string name="confirm_to_delete_the_msg">确定删除该消息？</string>
+    <string name="confirm_to_delete_the_collection">确定删除该收藏？</string>
+    <string name="user_feedback">意见反馈</string>
+    <string name="weChat">微信公众号</string>
+    <string name="weibo">新浪微博</string>
+    <string name="email">电子邮箱</string>
+    <string name="copy_wechat">复制后打开微信，在查找公众号处可粘贴搜索并关注</string>
+    <string name="copy_weibo">复制后可以在新浪微博搜索并关注</string>
+    <string name="copy">复制</string>
+    <string name="have_copied_to_clipboard">已复制到剪贴板</string>
+    <string name="wechat_friends">微信好友</string>
+    <string name="wexin_circle">朋友圈</string>
+    <string name="weibo_friends">微博好友</string>
+    <string name="qq_friends">QQ好友</string>
+    <string name="qzone">QQ空间</string>
+    <string name="weibo_login">微博登录</string>
+    <string name="wechat_login">微信登录</string>
+    <string name="qq_login">QQ登录</string>
+    <string name="agree_with_usage_agreement">登录意味着你同意盖得排行</string>
+    <string name="usage_item">《使用协议》</string>
+    <string name="my_profile">我的资料</string>
+    <string name="nickname">昵称</string>
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="secret">保密</string>
+    <string name="updating_profile">正在更新资料</string>
+    <string name="answer_empty">回答不能为空</string>
+    <string name="empty_nickname">昵称不能为空</string>
+    <string name="nickname_length">昵称长度为4~30个字符</string>
+
+    <!-- H5页面相关 -->
+    <string name="web_error_message">网络不好，轻触屏幕重新加载</string>
+    <string name="unfound_page">找不到网页</string>
+
+    <!-- 友盟反馈 -->
+    <string name="umeng_fb_contact_info_hint">Email, MSN, Gtalk, or whatever we can find you.</string>
+    <string name="umeng_fb_back">Back</string>
+    <string name="umeng_fb_title">Feedback</string>
+    <string name="umeng_fb_write_contact_title">Write contact Info</string>
+    <string name="umeng_fb_change_contact_title">Change contact Info</string>
+    <string name="umeng_fb_contact_info">Contact Info</string>
+    <string name="umeng_fb_send">Send</string>
+    <string name="umeng_fb_reply_content_default">Your precious feedback are appriciated.</string>
+    <string name="umeng_fb_notification_ticker_text">Got new reply</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">New reply: %s</string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">You received %d new replies from the app developer.</string>
+    <string name="umeng_fb_feedback">Feedback</string>
+    <string name="umeng_fb_contact_save">Save</string>
+    <string name="umeng_fb_time_right_now">Just now</string>
+    <string name="umeng_fb_time_minutes_ago">%d minutes ago</string>
+    <string name="umeng_fb_time_this_year_format">MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_time_pre_year_format">yy/MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_contact_qq">QQ</string>
+    <string name="umeng_fb_contact_email">Email</string>
+    <string name="umeng_fb_contact_phone">Phone</string>
+    <string name="umeng_fb_contact_other">Other</string>
+    <string name="umeng_fb_send_fail">Send fail</string>
+    <string name="umeng_fb_sending">Sending&#8230;</string>
+    <string name="umeng_fb_contact_key_qq">qq</string>
+    <string name="umeng_fb_contact_key_email">email</string>
+    <string name="umeng_fb_contact_key_phone">phone</string>
+    <string name="umeng_fb_contact_key_other">plain</string>
+
+    <string-array name="umeng_fb_contact_type_array">
+        <item>@string/umeng_fb_contact_email</item>
+        <item>@string/umeng_fb_contact_qq</item>
+        <item>@string/umeng_fb_contact_phone</item>
+        <item>@string/umeng_fb_contact_other</item>
+    </string-array>
+    <string-array name="umeng_fb_contact_key_array">
+        <item>@string/umeng_fb_contact_key_email</item>
+        <item>@string/umeng_fb_contact_key_qq</item>s
+        <item>@string/umeng_fb_contact_key_phone</item>
+        <item>@string/umeng_fb_contact_key_other</item>
+    </string-array>
+
 </resources>

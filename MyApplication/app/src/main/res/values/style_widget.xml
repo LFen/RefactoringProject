@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用布局margin -->
+    <style name="NormalMarginLayout">
+        <item name="android:layout_margin">@dimen/normal_margin</item>
+    </style>
+
+    <!-- 通用布局padding -->
+    <style name="NormalPaddingLayout">
+        <item name="android:padding">@dimen/normal_padding</item>
+    </style>
+
+    <!-- 重要按钮样式 -->
+    <style name="PrimaryButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/primary_button_height</item>
+        <item name="android:layout_marginLeft">@dimen/normal_margin</item>
+        <item name="android:layout_marginRight">@dimen/normal_margin</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_normal</item>>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/common_blue_solid_button_selector</item>
+        <item name="android:radius">@dimen/normal_radius</item>
+    </style>
+
+    <!-- 一般按钮样式 -->
+    <style name="NormalButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:layout_height">@dimen/normal_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:background">@drawable/common_blue_stroke_button_selector</item>
+        <item name="android:textColor">@color/txt_blue_stroke_button_selector</item>
+    </style>
+
+    <!--一般按钮样式 样式2 -->
+    <style name="NormalButton.TypeB">
+        <item name="android:background">@drawable/common_white_stroke_button_selector</item>
+        <item name="android:textColor">@color/txt_white_stroke_button_selector</item>
+    </style>
+
+    <!-- 消极按钮样式 -->
+    <style name="NegativeButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:layout_height">@dimen/normal_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:background">@drawable/common_gary_stroke_button_selector</item>
+        <item name="android:textColor">@color/C_B2B2B2</item>
+    </style>
+
+    <!-- Small按钮样式 -->
+    <style name="SmallButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:layout_height">@dimen/small_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:background">@drawable/common_blue_stroke_button_selector</item>
+        <item name="android:textColor">@color/txt_blue_stroke_button_selector</item>
+    </style>
+
+    <!-- Small按钮样式 样式2 -->
+    <style name="SmallButton.TypeB">
+        <item name="android:background">@drawable/common_white_stroke_button_selector</item>
+        <item name="android:textColor">@color/txt_white_stroke_button_selector</item>
+    </style>
+
+
+    <!-- 一般状态下无背景，点击状态下为blue_100的按钮 -->
+    <style name="PlainTextButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/black_secondary</item>
+        <item name="android:background">@drawable/common_blue_plain_text_button_selector</item>
+    </style>
+
+    <!-- 购物车结算按钮 -->
+    <style name="ShoppingCartPayButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:paddingLeft">@dimen/normal_padding</item>
+        <item name="android:paddingRight">@dimen/normal_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shopping_cart_purchase_button_selector</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/font_big</item>
+        <item name="android:textColor">@color/C_1FA1FF</item>
+    </style>
+
+    <!-- Toolbar菜单样式 -->
+    <style name="Toolbar.MenuTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@color/txt_menu_item_selector</item>
+        <item name="actionMenuTextAppearance">@style/ToolbarMenuTextSize</item>
+        <item name="android:textColorSecondary">@color/abc_primary_text_material_dark</item>
+        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+
+    </style>
+    <!-- Toolbar菜单文字尺寸 -->
+    <style name="ToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <!-- EditTextInputLayout -->
+    <style name="EditTextLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/common_edit_text_bg_normal</item>
+    </style>
+
+    <!-- 输入框基础属性 -->
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColorHint">@color/black_secondary</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- 手机输入框 -->
+    <style name="EditText.Mobile">
+        <item name="android:textColor">@color/txt_common_edit_text_selector</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">11</item>
+    </style>
+
+    <!-- 手机验证码输入框 -->
+    <style name="EditText.VerifyCode">
+        <item name="android:textColor">@color/txt_common_edit_text_selector</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 密码输入框 -->
+    <style name="EditText.Password">
+        <item name="android:textColor">@color/txt_common_edit_text_selector</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:maxLength">20</item>
+    </style>
+
+    <!-- 普通文字输入框 -->
+    <style name="EditText.PlainText">
+        <item name="android:textColor">@color/txt_common_edit_text_selector</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:inputType">text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 金额输入框 -->
+    <style name="EditText.Decimal">
+        <item name="android:textColor">@color/txt_common_edit_text_selector</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 活动发布输入框 -->
+    <style name="EditText.Event">
+        <item name="android:textColor">@color/txt_common_edit_text_selector</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:inputType">text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 活动发布油费输入框 -->
+    <style name="EditText.Apportion">
+        <item name="android:textColor">@color/txt_common_edit_text_selector</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:inputType">number</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">2</item>
+    </style>
+
+    <style name="TabText">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/txt_home_tab_text_selector</item>
+    </style>
+
+    <!-- 聊天相关 -->
+    <style name="ChatTextDateStyle" parent="TextTiny.BlackImportant">
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <!-- 测试用按钮-->
+    <style name="btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_selector</item>
+    </style>
+
+    <style name="ListView">
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:dividerHeight">@dimen/normal_divider_line_height</item>
+        <item name="android:listSelector">@drawable/common_white_list_selector</item>
+    </style>
+
+    <style name="ListView.DividerBothMargin">
+        <item name="android:divider">@drawable/common_gray_list_both_margin_divider</item>
+    </style>
+
+    <style name="ListView.DividerAvatarMargin">
+        <item name="android:divider">@drawable/common_gray_list_avatar_margin_divider</item>
+    </style>
+
+    <style name="AlbumSpinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="Transparent" parent="Base.Theme.Bizranking">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.ActionBarStyle" parent="Base.Widget.AppCompat.ActionBar.Solid">
+        <item name="android:homeAsUpIndicator">@drawable/common_icon_white_left_arrow_72x72</item>
+        <item name="homeAsUpIndicator">@drawable/common_icon_white_left_arrow_72x72</item>
+    </style>
+
+    <!-- 分享dialog -->
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+    </style>
+
+    <style name="MaterialDialogSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+</resources>

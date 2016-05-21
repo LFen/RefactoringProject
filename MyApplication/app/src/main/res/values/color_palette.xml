@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design -->
+
+    <!-- Primary -->
+    <!-- Blue -->
+    <color name="blue_100">#1a2893ff</color>
+    <color name="blue_200">#802893ff</color>
+    <color name="blue_500">#2893ff</color>
+    <color name="blue_700">#0077e6</color>
+
+    <!-- Help -->
+    <!-- Yellow -->
+    <color name="yellow_500">#ffd800</color>
+    <!-- Red -->
+    <color name="red_500">#ff5252</color>
+
+    <!-- Black -->
+    <color name="black_100">#1a000000</color>
+    <color name="black_200">#33000000</color>
+    <color name="black_300">#4d000000</color>
+    <color name="black_500">#80000000</color>
+    <color name="black_700">#b3000000</color>
+    <color name="black_900">#e6000000</color>
+    <color name="black">#000000</color>
+
+    <!-- White -->
+    <color name="white_200">#33ffffff</color>
+    <color name="white_300">#4dffffff</color>
+    <color name="white_500">#80ffffff</color>
+    <color name="white_950">#f2ffffff</color>
+    <color name="white">#ffffff</color>
+
+    <!-- 通用 -->
+    <!-- Orange -->
+    <color name="orange_500">#f55e1e</color>
+    <color name="tab_enabled">#1fa1ff</color>
+
+    <!-- 其它 -->
+    <color name="C_EBF5FF">#ebf5ff</color>
+    <color name="C_D3DFEB">#d3dfeb</color>
+    <color name="C_B22893FF">#b22893ff</color>
+    <color name="C_CCCCCC">#cccccc</color>
+    <color name="C_F8F8F8">#f8f8f8</color>
+    <color name="C_E5E5E5">#e5e5e5</color>
+    <color name="C_DDDDDD">#dddddd</color>
+    <color name="C_FFFFFF">#ffffff</color>
+    <color name="C_333333">#333333</color>
+    <color name="C_642893ff">#642893ff</color>
+    <color name="C_48a3ff">#48a3ff</color>
+    <color name="C_666666">#666666</color>
+    <color name="C_FF603A">#ff603a</color>
+    <color name="C_999999">#999999</color>
+    <color name="C_EFEFEF">#efefef</color>
+    <color name="C_B2B2B2">#b2b2b2</color>
+    <color name="C_7428FF">#7428ff</color>
+    <color name="C_FFBE00">#ffbe00</color>
+    <color name="C_AAAAAA">#aaaaaa</color>
+    <color name="C_FFA200">#ffa200</color>
+    <color name="C_FF3535">#ff3535</color>
+    <color name="C_FF5252">#ff5252</color>
+    <color name="C_0079FF">#0079ff</color>
+    <color name="C_222222">#222222</color>
+    <color name="C_EEEEEE">#eeeeee</color>
+    <color name="C_FF4F3D">#ff4f3d</color>
+    <color name="C_F5F5F5">#f5f5f5</color>
+    <color name="C_080808">#080808</color>
+    <color name="C_CC1FA1FF">#cc1fa1ff</color>
+    <color name="C_0F212C">#0f212c</color>
+    <color name="C_0DFFFFFF">#0dffffff</color>
+    <color name="C_111111">#111111</color>
+    <color name="C_1FA1FF">#1fa1ff</color>
+    <color name="C_FAFAFA">#fafafa</color>
+    <color name="C_80666666">#80666666</color>
+    <color name="C_1B2633">#1b2633</color>
+    <color name="C_212A33">#212a33</color>
+    <color name="C_B8212A33">#b8212a33</color>
+    <color name="C_26303A">#26303a</color>
+    <color name="C_FF693C">#ff693c</color>
+    <color name="C_12C76E">#12c76e</color>
+    <color name="C_009AFF">#009aff</color>
+    <color name="C_DEDEDE">#dedede</color>
+    <color name="C_A5D9FF">#a5d9ff</color>
+    <color name="C_BBBBBB">#bbbbbb</color>
+    <color name="C_3172BA">#3172ba</color>
+    <color name="C_F0F0F0">#f0f0f0</color>
+    <color name="C_66182636">#66182636</color>
+
+    <!-- 友盟反馈 -->
+    <color name="umeng_fb_lightblue">#FF0FB0A8</color>
+    <color name="umeng_fb_gray">#FFD8D8D8</color>
+    <color name="umeng_fb_line">#DCDCDC</color>
+    <color name="umeng_fb_secondary_text_light">#8A000000</color>
+    <color name="umeng_fb_white">#FFFFFF</color>
+
+</resources>

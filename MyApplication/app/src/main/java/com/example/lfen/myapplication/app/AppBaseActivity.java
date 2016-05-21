@@ -14,7 +14,7 @@ public abstract class AppBaseActivity extends BaseActivity{
     protected abstract int getFragmentContentId();
 
     // 添加fragment
-    protected void addFragment(BaseFragment fragment) {
+    protected void addFragment(AppFragment fragment) {
         if (fragment != null) {
             getSupportFragmentManager().beginTransaction()
                     .replace(getFragmentContentId(), fragment, fragment.getClass().getSimpleName())

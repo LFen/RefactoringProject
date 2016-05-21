@@ -1,11 +1,35 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Base.Theme.Bizranking" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/C_1FA1FF</item>
+        <item name="colorAccent">@color/blue_500</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:actionBarSize">@dimen/toolbar_size</item>
+        <item name="android:actionOverflowButtonStyle">@style/Overflow</item>
+    </style>
+
+    <style name="Theme.Bizranking" parent="Base.Theme.Bizranking">
+    </style>
+
+    <style name="Theme.BizrankingTransStatusBar" parent="Base.Theme.Bizranking">
+
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/blue_500</item>
+    </style>
+
+    <style name="Overflow" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/common_icon_white_overflow_72x72</item>
+    </style>
+
+    <!-- 拼车tablayout 文字大小设置 -->
+    <style name="CunstomTabLayoutTextApprearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
     </style>
 
 </resources>

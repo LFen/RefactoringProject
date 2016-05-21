@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 通用图片背景色 -->
+    <color name="common_img_bg">#dddddd</color>
+    <!-- 通用分隔线颜色 -->
+    <color name="common_divider_line_bg">@color/black_100</color>
+    <!-- 通用分隔块颜色 -->
+    <color name="common_divider_block_bg">#f0f0f0</color>
+    <!-- 默认通用页面背景 -->
+    <color name="window_background">#f0f0f0</color>
+
+    <!-- 字色：白色字系列 -->
+    <!-- Primary #ffffff 100% -->
+    <color name="white_primary">@color/white</color>
+    <!-- Secondary #ffffff 50% -->
+    <color name="white_secondary">@color/white_500</color>
+    <!-- Disable #ffffff 30% -->
+    <color name="white_disable">@color/white_300</color>
+
+    <!-- 字色：黑色字系列 -->
+    <!-- Important #000000 90% -->
+    <color name="black_important">@color/black_900</color>
+    <!-- Primary #000000 70% -->
+    <color name="black_primary">@color/black_700</color>
+    <!-- Secondary #000000 50% -->
+    <color name="black_secondary">@color/black_500</color>
+    <!-- Disable #000000 30% -->
+    <color name="black_disable">@color/black_300</color>
+
+    <!-- 字色： 红色字系列 -->
+    <!-- Secondary #ff5252 -->
+    <color name="red_secondary">@color/red_500</color>
+
+    <color name="white_item_press_color">#14000000</color>
+
+    <!-- 广告价钱 -->
+    <color name="price_available">@color/orange_500</color>
+
+    <!-- 常开蓝牙提醒 -->
+    <color name="open_bt_cancel">#7f007aff</color>
+    <color name="open_bt_confirm">#ff007aff</color>
+
+    <!-- 打卡字体颜色 -->
+    <color name="sign_in_text_color">#577dd2</color>
+
+    <!-- splash背景颜色 -->
+    <color name="splash_bg_color">#f6fcff</color>
+
+    <!-- IBeacon相关颜色 -->
+    <color name="beacon_locale">#33ffffff</color>
+    <color name="bg_ibeacon_shake">#002236</color>
+</resources>

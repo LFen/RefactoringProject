@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:drawable="@drawable/shape_round_rect_33000000_bg" android:state_enabled="false"/>
+    <item android:drawable="@drawable/shape_round_rect_ff3535_bg" android:state_pressed="true"/>
+    <item>
+        <shape
+            android:shape="rectangle">
+            <corners android:radius="@dimen/normal_radius"/>
+            <solid android:color="@color/red_500"/>
+            <padding android:left="@dimen/normal_padding" android:right="@dimen/normal_padding"/>
+        </shape>
+    </item>
+</selector>

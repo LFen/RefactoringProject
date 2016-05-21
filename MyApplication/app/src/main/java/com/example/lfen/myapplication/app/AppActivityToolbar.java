@@ -14,7 +14,7 @@ import com.example.lfen.myapplication.R;
 public abstract class AppActivityToolbar extends AppBaseActivity {
 
     //获取第一个fragment
-    protected abstract BaseFragment getFirstFragment();
+    protected abstract AppFragment getFirstFragment();
 
     //获取intent
     protected void handleIntent(Intent intent) {
@@ -23,6 +23,7 @@ public abstract class AppActivityToolbar extends AppBaseActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(getContentViewId());
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -39,12 +40,11 @@ public abstract class AppActivityToolbar extends AppBaseActivity {
         }
         //避免重复添加fragment
         if (null == getSupportFragmentManager().getFragments()) {
-            BaseFragment firstFragment = getFirstFragment();
+            AppFragment firstFragment = getFirstFragment();
             if (null != firstFragment) {
                 addFragment(firstFragment);
             }
         }
-        super.onCreate(savedInstanceState);
     }
 
     @Override

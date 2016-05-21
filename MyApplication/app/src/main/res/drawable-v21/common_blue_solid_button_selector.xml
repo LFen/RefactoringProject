@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/blue_700">
+    <item>
+        <selector>
+            <item android:drawable="@drawable/shape_round_rect_33000000_bg" android:state_enabled="false"/>
+            <item android:drawable="@drawable/shape_round_rect_2893ff_bg"/>
+        </selector>
+    </item>
+</ripple>
